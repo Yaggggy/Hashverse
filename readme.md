@@ -2,7 +2,7 @@
 
 ![HashVerse](https://img.shields.io/badge/Project-HashVerse-blue?style=flat-square)
 
-HashVerse is a sleek, dark-themed web application that allows users to generate cryptographic hashes using multiple popular hashing algorithms. Enter any input, choose a hashing algorithm, and instantly see the resulting hash along with a brief summary of the algorithm.
+HashVerse allows users to generate cryptographic hashes using multiple popular hashing algorithms. Enter any input, choose a hashing algorithm, and instantly see the resulting hash along with a brief summary of the algorithm.
 
 ---
 
@@ -34,8 +34,6 @@ Hashing is widely used in:
 | **SHA-512** | 512-bit (128 hex chars) | Strongest of SHA-2 family. Used for high-security applications.                                    |
 | **SHA-384** | 384-bit (96 hex chars)  | Truncated version of SHA-512, offers high security with smaller output.                            |
 
-> 💡 Tip: Always use SHA-2 (SHA-256 or SHA-512) or SHA-3 for any real cryptographic applications.
-
 ---
 
 ## ⚡ Project Features
@@ -54,7 +52,7 @@ Hashing is widely used in:
 - **Frontend:** React.js
 - **Backend:** Python FastAPI
 - **Deployment:** Render (backend) + Netlify (frontend)
-- **Styling:** Vanilla CSS (no Tailwind)
+- **Styling:** Vanilla CSS
 
 ---
 
@@ -72,19 +70,11 @@ Hashing is widely used in:
 ## 🌐 Live Demo
 
 - **Backend:** [https://hashverse.onrender.com](https://hashverse.onrender.com)
-- **Frontend:** (replace with your deployed Netlify URL)
+- **Frontend:** (https://hashverse.netlify.app/)
 
 ---
 
-## 📚 Learn More About Hashing
-
-- [MD5](https://en.wikipedia.org/wiki/MD5)
-- [SHA Family](https://en.wikipedia.org/wiki/Secure_Hash_Algorithms)
-- [Hashing Concepts](https://en.wikipedia.org/wiki/Cryptographic_hash_function)
-
----
-
-## 🛠 Installation (for Developers)
+## 🛠 Installation
 
 ```bash
 # Clone the repo
