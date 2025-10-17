@@ -1,0 +1,90 @@
+body {
+  background-color: #0d1117;
+  color: #e6edf3;
+  font-family: "Segoe UI", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  text-align: center;
+  max-width: 700px;
+  margin: 50px auto;
+  padding: 20px;
+}
+
+.title {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  color: #58a6ff;
+}
+
+.subtitle {
+  color: #8b949e;
+  margin-bottom: 30px;
+}
+
+.input-box {
+  width: 80%;
+  padding: 12px;
+  border-radius: 8px;
+  border: none;
+  background: #161b22;
+  color: white;
+  font-size: 1rem;
+  margin-bottom: 30px;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.hash-card {
+  background: #21262d;
+  color: #e6edf3;
+  border: 1px solid #30363d;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: 0.3s;
+}
+
+.hash-card:hover {
+  background: #58a6ff;
+  color: black;
+}
+
+.result {
+  background: #161b22;
+  padding: 20px;
+  margin-top: 30px;
+  border-radius: 10px;
+  border: 1px solid #30363d;
+}
+
+.hash-value {
+  word-break: break-all;
+  background: #0d1117;
+  padding: 10px;
+  border-radius: 8px;
+  color: #58a6ff;
+  font-family: monospace;
+}
+
+.summary {
+  color: #8b949e;
+  margin-top: 10px;
+}
+
+@media (max-width: 600px) {
+  .input-box {
+    width: 95%;
+  }
+  .hash-card {
+    flex: 1 1 40%;
+  }
+}
